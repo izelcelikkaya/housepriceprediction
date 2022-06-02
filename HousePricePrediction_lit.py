@@ -1,19 +1,8 @@
 #importing necessary libs
 import pandas as pd
-import seaborn as sns
 import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-sns.set()
-import plotly
-from sklearn.metrics import confusion_matrix
-import matplotlib.gridspec as gridspec
 from sklearn.preprocessing import StandardScaler
-from numpy import genfromtxt
-from sklearn import preprocessing
-from plotly.offline import download_plotlyjs,init_notebook_mode,plot,iplot
-init_notebook_mode(connected=True)
-import streamlit as st 
+import streamlit as st
 import pickle
 
 #importing dataframe 
