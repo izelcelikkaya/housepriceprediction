@@ -2,6 +2,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
+import xgboost
 import streamlit as st
 import pickle
 
