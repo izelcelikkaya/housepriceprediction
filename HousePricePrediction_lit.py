@@ -92,7 +92,7 @@ elif page == "Page 3":
     st.write("[Melisa Gündüz]( )")
     st.write("[Ömer Batuhan Özbay]( )")
     st.write("[Serenay Ardahanlı]( )")
-    st.write("[Uğur Can Kıvanç]( )")
+    st.write("[Uğur Can Kıvanç](https://github.com/Exedeus21)")
     st.write("[Yigit Hakverdi]( )")
 
     st.write("# Linkedins #")
@@ -106,5 +106,5 @@ elif page == "Page 3":
     st.write("[Melisa Gündüz]( )")
     st.write("[Ömer Batuhan Özbay]( )")
     st.write("[Serenay Ardahanlı]( )")
-    st.write("[Uğur Can Kıvanç]( )")
+    st.write("[Uğur Can Kıvanç](https://www.linkedin.com/in/ugur-can-kivanc/)")
     st.write("[Yigit Hakverdi]( )")
