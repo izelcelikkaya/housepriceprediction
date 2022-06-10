@@ -93,10 +93,6 @@ model = XGBRegressor(n_estimators=1150,
                     max_depth=5, eta=0.03, 
                     subsample=0.5, 
                     colsample_bytree=0.8)
-model = lgb.LGBMRegressor(max_depth=3, 
-                    n_estimators = 100, 
-                    learning_rate = 0.2,
-                    min_child_samples = 10)
 model.fit(X_train,y_train)
 ```
 ### Evaluation
