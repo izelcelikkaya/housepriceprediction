@@ -52,10 +52,10 @@ The dataset contains the following features:
 
 ```bash
 # clone the repo
-git clone https://github.com/uzunb/house-prices-prediction-LGBM.git
+git clone https://github.com/izelcelikkaya/housepriceprediction.git
 
 # change to the repo directory
-cd house-prices-prediction-LGBM
+cd housepriceprediction
 
 # if virtualenv is not installed, install it
 #pip install virtualenv
@@ -75,14 +75,14 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # run the script
-streamlit run main.py
+streamlit run HousePrices.ipynb
 ```
 
 ## Model Development
 
 ### Model
 
-The model is based on a [LightGBM](https://lightgbm.readthedocs.io/en/latest/index.html) algorithm.
+The model is based on a [XGBoost](https://xgboost.readthedocs.io/en/stable/) algorithm.
 
 ### Training
 
