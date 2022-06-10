@@ -1,0 +1,6 @@
+pandas
+numpy
+pickleshare==0.7.5
+scikit-learn==1.0.2
+Streamlit 
+xgboost
