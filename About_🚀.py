@@ -47,12 +47,6 @@ st.write("#### RMSE = 17707.2")
 st.write("## Feature Importance")
 st.image("outputFI.png",width=800)
 
-x="https://www.tpfund.org/wp-content/uploads/2019/07/logo-1.png"
-y="https://pbs.twimg.com/profile_images/1271062929874530306/xABPmpSo_400x400.jpg"
-z="https://www.iogo.org.tr/wp-content/uploads/2020/11/istanbul-buyuksehir-belediyesi-vector-logo.png"
-#a="https://iaahbr.tmgrup.com.tr/598bbc/806/378/0/35/678/353?u=https://iahbr.tmgrup.com.tr/2019/07/19/ismek-kurs-kayitlari-ne-zaman-basliyor-ismek-kurs-branslari-nelerdir-1563550981957.jpg"
-b="https://media-exp2.licdn.com/dms/image/C4D0BAQFm0BDfiVWhzQ/company-logo_200_200/0/1640783137997?e=1663200000&v=beta&t=Yeys1DYwVuap2iLxCD2HvEl963LOQ4LWbSGvFNK_fNA"
-liste=[y,x,z,b]
 st.write("\n")
-st.image(liste,width=176)
+st.image("images\logos.jpg", width=800, caption='Our supporters')
 
