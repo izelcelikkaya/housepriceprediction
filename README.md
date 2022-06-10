@@ -1,4 +1,3 @@
-
 # housepriceprediction <3
 This project is a part of K136. Istanbul Data Science Bootcamp. 
 
@@ -8,6 +7,7 @@ HousePricesoriginal contains all processing that convert house_price_1 to evfiya
 HousePrices was created to be easier to work with. It uses evfiyati, which is a directly processed data.
 
 HousePricePrediction_lit.py is streamlit code. 
+
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/izelcelikkaya/housepriceprediction/main/HousePricePrediction_lit.py)
 
 ## Description
@@ -26,28 +26,26 @@ The goal of this project is to predict the price of a house in Ames using the fe
 
 The dataset contains the following features:
 
-* **OverallQual**: Overall quality of the house
+* **MSSubClass**: Identifies the type of dwelling involved in the sale
+* **MoSold**: Month Sold (MM)
+* **OverallQual**: Rates the overall material and finish of the house
+* **OveralCond**: Rates the overall condition of the house
+* **YrSold**: Year Sold (YYYY)
+* **LotArea**: Lot size in square feet
+* **LotFrontage**: Linear feet of street connected to property
+* **BsmtUnfSF**: Unfinished square feet of basement area
 * **GrLivArea**: Above grade (ground) living area square feet
-* **GarageCars**: Number of garage cars
+* **GarageArea**: Size of garage in square feet
 * **TotalBsmtSF**: Total square feet of basement area
-* **FullBath**: Number of full baths
 * **YearBuilt**: Year house was built
-* **TotRmsAbvGrd**: Total number of rooms above grade (excluding bathrooms and closets)
-* **Fireplaces**: Number of fireplaces
-* **BedroomAbvGr**: Number of bedrooms above grade
-* **GarageYrBlt**: Year garage was built
-* **LowQualFinSF**: Lowest quality finished square feet
-* **LotFrontage**: Lot frontage square feet
-* **MasVnrArea**: Masonry veneer square feet
-* **WoodDeckSF**: Square feet of wood deck area
+* **1stFlrSF**: First Floor square feet
+* **BsmtFinSF1**: Type 1 finished square feet
 * **OpenPorchSF**: Open porch square feet
-* **EnclosedPorch**: Enclosed porch square feet
-* **3SsnPorch**: Three season porch square feet
-* **ScreenPorch**: Screen porch square feet
-* **PoolArea**: Pool square feet
-* **MiscVal**: Miscellaneous value
-* **MoSold**: Month house was sold
-* **YrSold**: Year house was sold
+* **MasVnrArea**: Masonry veneer square feet
+* **YearRemodAdd**: Remodel date (same as construction date if no remodeling or additions)
+* **WoodDeckSF**: Wood deck area in square feet
+* **GarageYrBlt**: Year garage was built
+* **2ndFlrSF**: Second floor square feet
 * **SalePrice**: Sale price
 
 ## Usage
