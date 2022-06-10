@@ -5,7 +5,7 @@ HousePricesoriginal contains all processing that convert house_price_1 to evfiya
 HousePrices was created to be easier to work with. It uses evfiyati, which is a directly processed data.
 HousePricePrediction_lit.py is streamlit code. 
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/izelcelikkaya/housepriceprediction/main/HousePricePrediction_lit.py)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/izelcelikkaya/housepriceprediction/main/About_🚀.py)
 ## Description
 This repo has been developed for the Istanbul Data Science Bootcamp, organized in cooperation with İBB & Kodluyoruz. Prediction for house prices was developed using the Kaggle House Prices - Advanced Regression Techniques competition dataset.
 ## Data
@@ -84,7 +84,7 @@ print(r_squared)
 ```
 ## Results
 The model is trained on the dataset and tested on the test dataset. The results are shown demo with Streamlit below:
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/izelcelikkaya/housepriceprediction/main/HousePricePrediction_lit.py)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/izelcelikkaya/housepriceprediction/main/About_🚀.py)
 ## Contributions
 * İzel Çelikkaya - [Github](https://github.com/izelcelikkaya) - [LinkedIn](https://www.linkedin.com/in/izelcelikkaya)
 * Mehmet Özmen - [Github](https://github.com/mehmetzmn) - [LinkedIn](https://www.linkedin.com/in/mehmetozmen)
