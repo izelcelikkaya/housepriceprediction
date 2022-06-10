@@ -6,7 +6,7 @@ import streamlit as st
 import pickle
 
 
- feat/top-20-feat
+
 #importing dataframe 
 x="https://external-preview.redd.it/wEHXsHI7CTei6iQVuJzS4zyIeW_sVME5akvkvE67CvU.jpg?width=960&crop=smart&auto=webp&s=cd7dad26064e8302c9fa88dbcbf5afb99165dc00" 
 st.image(x,width=800)
@@ -171,4 +171,3 @@ elif page == "Page 3":
     st.write("[Serenay Ardahanlı]( )")
     st.write("[Uğur Can Kıvanç](https://www.linkedin.com/in/ugur-can-kivanc/)")
     st.write("[Yigit Hakverdi]( )")
-    main
