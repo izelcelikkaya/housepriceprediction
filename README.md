@@ -91,7 +91,7 @@ The model is trained on the dataset and tested on the test dataset. The results 
 * Uğur Can Kıvanç - [Github](https://github.com/Exedeus21) - [LinkedIn](https://www.linkedin.com/in/ugur-can-kivanc)
 * Fuat Akdemir - [Github](https://github.com/FuatAkdemir) - [LinkedIn](https://www.linkedin.com/in/fuatakdemir)
 * Çiğdem Taş - [Github](https://github.com/chidemmm) - [LinkedIn](https://www.linkedin.com/in/tashchidem)
-* Ercan Tuncay - [Github] - [LinkedIn](https://www.linkedin.com/in/ercantuncay/)
+* Ercan Tuncay - [Github](https://github.com/ercantncy) - [LinkedIn](https://www.linkedin.com/in/ercantuncay/)
 * Serenay Ardahanlı - [Github](https://github.com/Serenayarda) - [LinkedIn](https://www.linkedin.com/in/serenay-ardahanli)
 * Ali Haydar Şenyurt - [Github](https://github.com/alisenyurt87) - [LinkedIn](https://www.linkedin.com/in/ali-haydar-senyurt)
 * Aybüke Akçay - [Github](https://github.com/akcaybuke) - [LinkedIn](https://www.linkedin.com/in/aybuke-akcay)
