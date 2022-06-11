@@ -7,7 +7,7 @@ st.set_page_config(page_title="Who We Are Page - House Price Prediction", page_i
 st.markdown("# Contributors #")
 
 st.write("## Githubs ")
-st.write("Ali Haydar Şenyurt" + "[github](https://github.com/alisenyurt87)" + "[linkedin](https://www.linkedin.com/in/ali-haydar-senyurt)")
+st.write("Ali Haydar Şenyurt" + "\t\t[github](https://github.com/alisenyurt87)" + "\t\t[linkedin](https://www.linkedin.com/in/ali-haydar-senyurt)")
 st.write("[Ali Haydar Şenyurt](https://github.com/alisenyurt87)")
 st.write("[Aybüke Akçay](https://github.com/akcaybuke)")
 st.write("[Çiğdem Taş](https://github.com/chidemmm)")
