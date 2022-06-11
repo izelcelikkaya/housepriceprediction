@@ -10,8 +10,8 @@ import xgboost
 # Display details of page 1
 
 st.title("ABOUT")
-st.write("""##### This repo is a part of K136. Kodluyoruz & Istanbul Metropolitan Municipality Data Science Bootcamp.The project aims to produce a machine learning model for home price estimation. The model was built on the Kaggle House Prices - Advanced Regression Techniques competition dataset.""")
-st.write("""The dataset contains the following features:\n
+st.write("""##### This repo is a part of K136. Kodluyoruz & Istanbul Metropolitan Municipality Data Science Bootcamp. The project aims to produce a machine learning model for home price estimation. The model was built on the Kaggle House Prices - Advanced Regression Techniques competition dataset. """)
+st.write(""" The dataset contains the following features: \n
 
 - MSSubClass : Identifies the type of dwelling involved in the sale\n
 - MoSold: Month Sold (MM)\n
@@ -45,8 +45,10 @@ st.write("#### MAE = 73211.47")
 st.write("#### RMSE = 17707.2")
 
 st.write("## Feature Importance")
-st.image("outputFI.png",width=800)
+st.image("Images/outputFI.png", width=800, caption='Feature importance graph')
 
 st.write("\n")
+
+st.write("## Our Dear Supporters")
 st.image("Images/logos.jpg", width=800, caption='Our supporters')
 
