@@ -48,5 +48,5 @@ st.write("## Feature Importance")
 st.image("outputFI.png",width=800)
 
 st.write("\n")
-st.image("images\logos.jpg", width=800, caption='Our supporters')
+st.image("Images\logos.jpg", width=800, caption='Our supporters')
 
