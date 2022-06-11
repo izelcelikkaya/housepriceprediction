@@ -1,4 +1,4 @@
-#importing necessary libs
+# Importing necessary libs
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
@@ -6,14 +6,18 @@ import streamlit as st
 import pickle
 
 
-#importing dataframe 
+# Adding favicon to page
+st.set_page_config(page_title="Home Sweet Home Page - House Price Prediction", page_icon="🏘️")
+
+# Adding an external photo via URL to page
 x="https://external-preview.redd.it/wEHXsHI7CTei6iQVuJzS4zyIeW_sVME5akvkvE67CvU.jpg?width=960&crop=smart&auto=webp&s=cd7dad26064e8302c9fa88dbcbf5afb99165dc00" 
 st.image(x,width=800)
 st.write(" ## Let's Predict Your Dream Home's Value :) ##")
+
+# Importing dataframe 
 df = pd.read_csv('evfiyati.csv') 
 
-#variables_list contains chosen variables for users, these variables are first 20 most important features
-
+# Variables_list contains chosen variables for users, these variables are first 20 most important features
 variables_list=['LotArea', 'LotFrontage', 'BsmtUnfSF', 'GrLivArea', 'MSSubClass',
                 'GarageArea', 'TotalBsmtSF', 'YearBuilt', '1stFlrSF', 'BsmtFinSF1',
                 'OpenPorchSF', 'MasVnrArea', 'MoSold', 'YearRemodAdd', 'WoodDeckSF',
@@ -31,7 +35,7 @@ slider_desc_list = ['Lot size in square feet', 'Linear feet of street connected 
 box_list = []
 slider_list = []
 
-# if amount of unique variables more than 20, then use selectbox
+# If amount of unique variables more than 20, then use selectbox
 for var in range(len(variables_list)):
     if len(df[variables_list[var]].unique()) < 20:
         box_list.append(variables_list[var])
@@ -79,19 +83,19 @@ print(box_dict)
 print(slider_dict)
 
 
-#keeping inputs in a dic
+# Keeping inputs in a dic
 input_dict = {**box_dict, **slider_dict}
 dictf = pd.DataFrame(input_dict, index=[0])
 df = df.append(dictf, ignore_index= True) 
 
-#giving default values to other variables 
+# Giving default values to other variables 
 for i in df.columns:
     if df[i].dtypes in ["object"]:
         df[i].fillna(df[i].mode(),inplace = True)
     else:
         df[i].fillna(df[i].mean(),inplace = True)
 
-#drop uncessary variables 
+# Drop uncessary variables 
 df.drop("Id", inplace=True,axis=1)
 df.drop("SalePrice", inplace=True,axis=1)
 df2 = pd.get_dummies(df)
@@ -99,19 +103,20 @@ scaler = StandardScaler()
 scaler.fit(df2)
 df3 = pd.DataFrame(scaler.transform(df2),index = df2.index,columns = df2.columns)
 
-#selecting only last row. (User input data)
+# Selecting only last row. (User input data)
 newdata=pd.DataFrame(df3.iloc[[-1]])
 
-#load already trained model (XGBoost)
+# Load already trained model (XGBoost)
 with open('finalized_model.model' , 'rb') as f:
     lr = pickle.load(f)
 
-#adding a button 
+# Adding a button 
 #""" if st.sidebar.button('Show House Price'):
 #    ypred = lr.predict(newdata)
 #    st.title("Value of your dream house: ")
 #    st.title(str(np.round(ypred[0]))+" $") """
 
+# or it can work directly.
 ypred = lr.predict(newdata)
 st.title("Value of your dream house: ")
 st.title(str(np.round(ypred[0]))+" $")
