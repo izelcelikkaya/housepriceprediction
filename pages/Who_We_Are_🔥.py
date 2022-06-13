@@ -7,7 +7,6 @@ st.set_page_config(page_title="Who We Are Page - House Price Prediction", page_i
 st.markdown("# Contributors #")
 
 st.write("## Githubs ")
-st.write("Ali Haydar Şenyurt" + "\t\t\t\t[github](https://github.com/alisenyurt87)" + "\t\t\t\t[linkedin](https://www.linkedin.com/in/ali-haydar-senyurt)")
 st.write("[Ali Haydar Şenyurt](https://github.com/alisenyurt87)")
 st.write("[Aybüke Akçay](https://github.com/akcaybuke)")
 st.write("[Çiğdem Taş](https://github.com/chidemmm)")
@@ -35,4 +34,5 @@ st.write("[Serenay Ardahanlı](https://www.linkedin.com/in/serenay-ardahanli)")
 st.write("[Uğur Can Kıvanç](https://www.linkedin.com/in/ugur-can-kivanc)")
 
 st.markdown("[![LinkedIn](Images/logos.jpg)](https://www.linkedin.com/in/fuatakdemir/)")
+st.image("Images/logos.jpg", width=800, caption='Our supporters')
 
