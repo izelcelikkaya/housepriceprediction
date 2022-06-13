@@ -33,7 +33,8 @@ st.write("[Ömer Batuhan Özbay](https://www.linkedin.com/in/omerbatuhanozbay)")
 st.write("[Serenay Ardahanlı](https://www.linkedin.com/in/serenay-ardahanli)")
 st.write("[Uğur Can Kıvanç](https://www.linkedin.com/in/ugur-can-kivanc)")
 
-st.markdown("[![LinkedIn](Images/logos.jpg)](https://www.linkedin.com/in/fuatakdemir/)")
+st.markdown("[![LinkedIn](media/23468a113ea9535df73320ee6572ce8e18bda17e20ac84048ae68d07.png)](https://www.linkedin.com/in/fuatakdemir/)")
+st.markdown("[![GitHub](f6b34f1c0d2de53ebf152f252365ae184f5c7a03e6054d7336d3e78e.png)](https://www.github.com/FuatAkdemir/)")
 st.image("Images/linkedin.png", caption='for linkedin image address')
 st.image("Images/github.png", caption='for github image address')
 
