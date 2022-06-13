@@ -34,5 +34,6 @@ st.write("[Serenay Ardahanlı](https://www.linkedin.com/in/serenay-ardahanli)")
 st.write("[Uğur Can Kıvanç](https://www.linkedin.com/in/ugur-can-kivanc)")
 
 st.markdown("[![LinkedIn](Images/logos.jpg)](https://www.linkedin.com/in/fuatakdemir/)")
-st.image("Images/logos.jpg", width=800, caption='Our supporters')
+st.image("Images/linkedin.png", caption='for linkedin image address')
+st.image("Images/github.png", caption='for github image address')
 
